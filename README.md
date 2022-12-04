@@ -21,4 +21,4 @@ Requirements
 - https://github.com/WongKinYiu/yolov7
 - https://github.com/jzhang533/yolov5-flask 
 - https://github.com/robmarkcole/yolov5-flask
-- https://github.com/Michael-OvO/Yolov7-Flask
+- https://github.com/Michael-OvO/Yolov7-Flask : This framework was rewritten from this repo
