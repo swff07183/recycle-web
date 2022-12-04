@@ -10,6 +10,7 @@ Requirements
 - PyTorch 1.12.1
 - TorchVision 0.13.1
 - Details are specified in requirements.txt.
+
 `$ pip install -r requirements.txt 
 
 `$ FLASK_ENV=development FLASK_APP=app.py flask run
