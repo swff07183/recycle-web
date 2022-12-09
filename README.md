@@ -13,7 +13,10 @@ Requirements
 
 `$ pip install -r requirements.txt`
 
+You must put one pt file in the model directory.
+
 `$ FLASK_ENV=development FLASK_APP=app.py flask run`
+
 
 
 ## reference
