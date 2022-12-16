@@ -14,6 +14,7 @@ COPY --chown=python:python requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 RUN apt-get update -y
 RUN apt-get install -y libgl1-mesa-glx
+RUN apt-get install libglib2.0-0
 
 USER python:python
 ENV PATH="/home/${USER}/.local/bin:${PATH}"
