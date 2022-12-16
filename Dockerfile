@@ -12,7 +12,8 @@ WORKDIR /home/python
 
 COPY --chown=python:python requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
-RUN apt-get install libgl1-mesa-glx
+RUN apt-get update -y
+RUN apt-get install -y libgl1-mesa-glx
 
 USER python:python
 ENV PATH="/home/${USER}/.local/bin:${PATH}"
